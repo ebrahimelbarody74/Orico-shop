@@ -1,0 +1,76 @@
+.productComp{
+    .row{
+        display: grid;
+        grid-template-columns: repeat(4,auto);
+        gap: 1rem;
+        .box{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            transition: .4s ease-in-out;
+            a{
+                transition: .4s ease-in-out;
+                &:hover{
+                    top: -10px;
+                    transition: .4s ease-in-out;
+                    
+                }
+                img{
+                    position: relative;
+                    width: 100%;
+                    height: 300px;
+                    transition: .4s ease-in-out;
+
+                }
+                
+            }
+            .color{
+                margin: 10px 0;
+                display: flex;
+                gap: 1rem;
+                justify-content: end;
+                span{
+                width: 20px;
+                height: 20px;
+                display: block;
+                border-radius: 50%;
+                cursor: pointer;
+            }
+            }
+            button{
+                background-color: #fff;
+                color: #ccc;
+                border: 1px solid #ccc;
+                padding: 7px 15px;
+                border-radius: 10px;
+                transition: 0.4s;
+                margin: auto;
+                display: block;
+                cursor: pointer;
+                &:hover{
+                    background-color: #000;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:991px){
+    .row{
+        grid-template-columns: repeat(3,auto) !important;
+    }
+}
+
+@media(max-width:767px){
+    .row{
+        grid-template-columns: repeat(2,auto) !important;
+    }
+}
+
+@media(max-width:550px){
+    .row{
+        grid-template-columns: repeat(1,auto) !important;
+    }
+}

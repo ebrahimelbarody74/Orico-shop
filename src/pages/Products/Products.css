@@ -1,0 +1,27 @@
+.products .row {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 2rem;
+  margin-bottom: 20px;
+}
+.products .row .box .img {
+  width: 100%;
+}
+.products .row .box .img img {
+  width: 100%;
+}
+.products ul {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+.products ul li {
+  background-color: #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.4s;
+}
+.products ul li:hover {
+  background-color: aqua;
+}

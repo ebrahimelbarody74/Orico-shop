@@ -1,0 +1,27 @@
+.scrollToTop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .top{
+        position:fixed;
+        padding: 10px;
+        bottom: 3%;
+        border-bottom: 1px solid #c0c0c0;
+        width: 20px;
+        height: 20px;
+        right: 3%;
+        text-align: right;
+        z-index: 10;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+}
+
+.dark .scrollToTop .top{
+    background-color: #fff;
+    color: #000;
+}
+.light .scrollToTop .top{
+    background-color: #000;
+    color: white;
+}

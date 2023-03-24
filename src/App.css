@@ -1,6 +1,21 @@
-.App {
-  text-align: center;
+a{
+  text-decoration: none;
 }
+ul{
+  list-style: none;
+}
+ .container{
+  width: 90%;
+  margin: auto;
+ }
+ .dark a{
+  color: #fff;
+  background-color: inherit;
+ }
+ .light a{
+  color: #000;
+ }
+
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +50,21 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.dark{
+  background-color: rgb(17 24 39);
+  color: #fff;
+}
+.dark .box{
+  background-color: rgb(31 41 55);
+}
+.dark .filter-box{
+  background-color: rgb(31 41 55);
+
+}
+.light{
+  background-color: #fff;
+  color: #000;
 }

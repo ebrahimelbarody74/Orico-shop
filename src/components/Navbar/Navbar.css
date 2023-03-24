@@ -1,0 +1,30 @@
+.navbar {
+  padding: 0px;
+}
+.navbar h1 {
+  margin: 5px 0;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ccc;
+}
+.navbar .container ul {
+  display: flex;
+  gap: 1rem;
+}
+.navbar .container ul li {
+  position: relative;
+  cursor: pointer;
+}
+.navbar .container ul .list {
+  background-color: #fff;
+  position: absolute;
+  z-index: 3;
+}
+.navbar .container ul .list ul {
+  display: flex;
+  flex-direction: column;
+  padding: 5px 10px;
+}

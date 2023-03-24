@@ -1,0 +1,50 @@
+.discount {
+  padding: 4rem 0;
+}
+.discount .head {
+  display: flex;
+  align-items: center;
+}
+.discount .head > * {
+  flex: 1;
+}
+.discount .head span {
+  display: flex;
+  justify-content: end;
+}
+.discount .box .col {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(3, 0, 71, 0.09) 0 1px 3px;
+  color: #000 !important;
+  border-radius: 10px;
+}
+.discount .box .col .img {
+  width: 100%;
+}
+.discount .box .col .img img {
+  width: 100%;
+}
+.discount .btn .prev, .discount .btn .Next {
+  background-color: #e94564;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.discount .btn .prev {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  z-index: 2;
+}
+.discount .btn .Next {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  z-index: 2;
+}

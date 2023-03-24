@@ -1,0 +1,57 @@
+.productType {
+  padding: 4rem 0;
+}
+.productType .head {
+  display: flex;
+  align-items: center;
+}
+.productType .head > * {
+  flex: 1;
+}
+.productType .head span {
+  display: flex;
+  justify-content: end;
+}
+.productType .box .col {
+  background-color: #fff;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: rgba(3, 0, 71, 0.09) 0 1px 3px;
+}
+.productType .box .col .img {
+  width: 100%;
+  overflow: hidden;
+}
+.productType .box .col .img img {
+  width: 100%;
+  height: 500px;
+  transition: 0.4s;
+}
+.productType .box .col .img img:hover {
+  transform: scale(1.3);
+}
+.productType .box .col h3 {
+  text-align: center;
+}
+.productType .btn .prev, .productType .btn .Next {
+  background-color: #e94564;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+  font-size: 30px;
+  cursor: pointer;
+}
+.productType .btn .prev {
+  position: absolute;
+  left: 5px;
+  top: 50%;
+  z-index: 2;
+}
+.productType .btn .Next {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  z-index: 2;
+}

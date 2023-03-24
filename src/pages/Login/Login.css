@@ -1,0 +1,31 @@
+.login {
+  height: 100vh;
+}
+.login .row {
+  padding: 20px 0;
+  display: flex;
+}
+.login .row .right {
+  width: 45%;
+}
+.login .row .right img {
+  width: 95%;
+  height: 95%;
+}
+.login .row .left {
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login .row .left form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.login .row .left form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}

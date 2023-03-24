@@ -1,0 +1,40 @@
+.productComp .row {
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 2rem;
+}
+.productComp .row .box {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  transition: 0.4s ease-in-out;
+}
+.productComp .row .box a {
+  transition: 0.4s ease-in-out;
+}
+.productComp .row .box a:hover {
+  top: -10px;
+  transition: 0.4s ease-in-out;
+}
+.productComp .row .box a img {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  transition: 0.4s ease-in-out;
+}
+.productComp .row .box button {
+  background-color: #fff;
+  color: #ccc;
+  border: 1px solid #ccc;
+  padding: 7px 15px;
+  border-radius: 10px;
+  transition: 0.4s;
+  margin: auto;
+  display: block;
+  cursor: pointer;
+}
+.productComp .row .box button:hover {
+  background-color: #000;
+  color: #fff;
+}

@@ -1,0 +1,31 @@
+.register {
+  height: 100vh;
+}
+.register .row {
+  padding: 20px 0;
+  display: flex;
+}
+.register .row .right {
+  width: 45%;
+}
+.register .row .right img {
+  width: 95%;
+  height: 95%;
+}
+.register .row .left {
+  width: 63%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register .row .left form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+.register .row .left form input {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 10px;
+}

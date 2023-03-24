@@ -1,0 +1,53 @@
+.slider{
+    position: relative;
+    height: 80vh;
+
+    button{
+        position: absolute;
+        z-index: 2;
+        &.prev{
+            top: 50%;
+            left: 5px;
+            display: block;
+            cursor: pointer;
+        }
+        &.next{
+            cursor: pointer;
+            top: 50%;
+            right: 5px;
+            display: block;
+        }
+    }
+    img{
+        width: 100%;
+        position: absolute;
+        height: 100%;
+        
+        &.opcity-1{
+            transition: .2s ease-in-out;
+            opacity: 1;
+        }
+        &.opcity-0{
+            transition: .3s ease-in-out;
+            opacity: 0;
+        }
+    }
+    .circle{
+        display: flex;
+        gap: 2rem;
+        position: absolute;
+        left: 50%;
+        bottom: 15px;
+        transform: translateX(-50%);
+        span{
+            background-color: #ccc;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            cursor: pointer;
+            &.active{
+                background-color: greenyellow;
+            }
+        }
+    }
+}
